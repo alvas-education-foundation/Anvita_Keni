@@ -1,0 +1,24 @@
+Write a c program to sort an array of integers in ascending order and display the sorted array and number of passes performed for sorting.
+
+import java.util.Scanner;
+class FloydTriangle
+{ 
+public static void main(Stringargs[]) 
+{ 
+int n,num=1,c,d;
+Scannerin=newScanner(System.in);
+System.out.println("Enter the number of rows of Floyd's triangle to display"); 
+n=in.nextInt();
+System.out.println("Floyd's triangle:");
+for(c=1;c<=n;c++) 
+{ 
+for(d=1;d<=c;d++)
+{ 
+System.out.print(num+""); num++; 
+} 
+System.out.println();
+}
+}
+}
+
+
